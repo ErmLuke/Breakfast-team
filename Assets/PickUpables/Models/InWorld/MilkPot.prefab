@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4831553066208036134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2512499480807407650}
+  - component: {fileID: 2601397104305860407}
+  m_Layer: 0
+  m_Name: MilkPot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2512499480807407650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4831553066208036134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7509792725722827657}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2601397104305860407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4831553066208036134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a6fcb17833a864bbadeb5d148aa5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carNear: 0
+  boatNear: 0
+  heliNear: 0
+  near: 0
+  spawnPoint: {fileID: 0}
+  carSpawn: {fileID: 0}
+  boatSpawn: {fileID: 0}
+  heliSpawn: {fileID: 0}
+  spawnItem: {fileID: 0}
+  controller: {fileID: 0}
+  constant: {fileID: 0}
+--- !u!114 &3777913483358247604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7259386230415211315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a6fcb17833a864bbadeb5d148aa5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carNear: 0
+  boatNear: 0
+  heliNear: 0
+  near: 0
+  spawnPoint: {fileID: 0}
+  carSpawn: {fileID: 0}
+  boatSpawn: {fileID: 0}
+  heliSpawn: {fileID: 0}
+  spawnItem: {fileID: 8576359748464604311, guid: 8c8dc366d458e994bbdc588be22b887a,
+    type: 3}
+  controller: {fileID: 0}
+  constant: {fileID: 0}
+--- !u!1001 &3831016492259368895
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2512499480807407650}
+    m_Modifications:
+    - target: {fileID: 5878328237721576588, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+        type: 3}
+      propertyPath: m_Name
+      value: Cylinder.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706604771602453558, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706604771602453558, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706604771602453558, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706604771602453558, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706604771602453558, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706604771602453558, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706604771602453558, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706604771602453558, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706604771602453558, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706604771602453558, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706604771602453558, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2, type: 3}
+--- !u!1 &7259386230415211315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5878328237721576588, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3831016492259368895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7509792725722827657 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6706604771602453558, guid: 7dfbc88701673ba44bb3b5b0e8bf22d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3831016492259368895}
+  m_PrefabAsset: {fileID: 0}
